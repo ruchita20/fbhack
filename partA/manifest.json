@@ -1,0 +1,21 @@
+{
+    "name": "Relive",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Part A: Relive",
+    "browser_action": {
+    "default_icon": "icon.png"
+      },
+
+    "content_scripts": [{
+        "js": [
+               "jquery.min.js",
+               "script.js"
+              ],
+        "matches": [ 
+            "*://facebook.com/"
+        ]
+    }]
+}
+
+
