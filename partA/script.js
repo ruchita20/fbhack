@@ -7,5 +7,5 @@
 
 
 
-$('._5pcp').hide();
+$( "._5pcp" ).append( ' . ' + '<a class="relive_link" href="http://facebook.com" role="button">Relive</a>');
 
