@@ -13,7 +13,9 @@
                "script.js"
               ],
         "matches": [ 
-            "*://*.facebook.com/"
+            "*://*.facebook.com/",
+            "*://localhost/"
+
 
         ]
     }]

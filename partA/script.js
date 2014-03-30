@@ -6,6 +6,13 @@
 */
 
 
+var address = "http://localhost/popup.html";
 
-$( "._5pcp" ).append( ' . ' + '<a class="relive_link" href="http://facebook.com" role="button">Relive</a>');
+$( "._5pcp" ).append( ' . ' + '<a class="relive_link" href="http://localhost/popup.html" role="button" target="_blank">Save Moment</a>');
 
+//$("#pinnedNav").append('<h4 class="linkWrap noCount"><a href="http://localhost/fbhackfinal.html">Relive Moments</a></h4>');
+
+function doSomething() {
+	debugger;
+	return false;
+}
